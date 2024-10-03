@@ -4,7 +4,7 @@ function Header() {
     const hover = "hover:text-gray-500"
     return ( 
         <>
-            <div className="justify-between flex p-2 bg-black text-white text-lg">
+            <div className="justify-between flex p-2 bg-yellow-500 text-white text-lg">
                 <div>
                     <p>David Cordeiro</p>
                     <img src="./img/d.png" alt="" />
