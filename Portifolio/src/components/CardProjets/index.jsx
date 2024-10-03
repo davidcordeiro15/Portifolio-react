@@ -4,11 +4,11 @@ function CardProjets({ nome, img, descricao, endereco }) {
  
     return ( 
     <>
-    <div>
+    <div className="w-3/6">
             <img src={img} alt="" />
-            <h2>{nome}</h2>
+            <h2 className="text-2xl m-5">{nome}</h2>
             <p>{descricao}</p>
-            <NavLink to={"/"&&endereco}></NavLink>
+            <NavLink className="hover:text-gray-600 hover:underline m-20" to={"/"&&endereco}>Saiba mais</NavLink>
     </div>
     
     </> );
