@@ -6,6 +6,11 @@ export const content = [
 ];
 export const theme = {
   extend: {},
+  theme: {
+    letterSpacing: {
+      widest: '.5em',
+     }
+  }
 };
 export const plugins = [];
 

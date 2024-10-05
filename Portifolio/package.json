@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "homepage": "https://davidcordeiro15.github.io/Portifolio-react/"
+    "preview": "vite preview"
   },
   "dependencies": {
     "portifolio": "file:",
