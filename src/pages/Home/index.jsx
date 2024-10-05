@@ -6,7 +6,7 @@ function Home() {
     const List = [
         {
             id: 1,
-            img: "../src/img/transacao.png",
+            img: "../../src/img/transacao.png",
             nome: "Projeto de Transações entre contas com Spring Boot",
             endereco: "https://github.com/davidcordeiro15/Transaction_System",
             descricao: "Este é um projeto que utiliza Spring Boot para gerenciar informações de empresas e clientes. A aplicação permite a criação, consulta e gerenciamento de dados através de uma API RESTful."
@@ -14,7 +14,7 @@ function Home() {
         },
         {
             id: 2,
-            img: "../src/img/produtos.png",
+            img: "../../src/img/produtos.png",
             nome: "Cadastro e listagem de produtos utilizando Java",
             endereco: "https://github.com/davidcordeiro15/Menu_de_cadastro",
             descricao: "Esse programa permite o usuario cadastrar e listar os elementos armazenados em uma lista, por meio de métodos do Java, simulando um pequeno sistema de mercado."
@@ -22,7 +22,7 @@ function Home() {
         },
         {
             id: 3,
-            img: "../src/img/lixo.png",
+            img: "../../src/img/lixo.png",
             nome: "Sistema de Captura de Lixo do Mar",
             endereco: "https://github.com/davidcordeiro15/GS---Edge-Computing",
             descricao: "Este sistema tem como objetivo utilizar um IOT para capturar lixo do mar com base na distância do objeto ao sistema. Utilizando servo motores, o sistema abre sua porta para armazenar o lixo quando detectado, fechando novamente após 5 segundos."
