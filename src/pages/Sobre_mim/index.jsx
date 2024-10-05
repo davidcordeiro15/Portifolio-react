@@ -1,10 +1,21 @@
+
 function Sobre_mim() {
+
+    
     return ( 
         <>
-        <div className="flex justify-between m-2 min-h-screen">
-            <img className="justify-between w-1/6 h-1/6 border-1 border-indigo-600 border rounded-3xl" src="../src/img/Foto_nova.jpg" alt="" />
-            <p className="w-6/12">Olá, desde criança sou um apreciador de tecnologia, e recentemente decidi cursar Engenharia de Software. Atualmente crio desafios para mim mesmo a fim de desenvolver programas, utilizando, Java com SpringBoot, Python, React com JavaScript, SQL com PostGreSQL, HTML e CSS. Já nos tempos da escola eu era um garoto autônomo, determinado em aprender coisas novas, hoje em dia esse pensamento não mudou. A cada dia tenho a meta de expandir meu conhecimento na área de desenvolvimento, conhecendo novas tecnologias, linguagens, framework e metodologias. Tenho em mente que para ser um exímio desenvolvedor é necessário colaborar com a equipe, para isso desenvolvo projetos com meus amigos, sempre com dedicação, respeito e ajuda mútua.</p>
+        <h1 className="text-6xl text-center">Sobre mim</h1>
+        <div className="flex justify-between m-2 mt-10 min-h-screen gap-10">
+            <img className=" ml-5 mt-10 w-1/6 h-1/6 border-1 border-blue-600 border rounded-full" src="../src/img/Foto_nova.jpg" alt="" />
+            <div className=" m-5 ">
+            <p className="text-3xl  m-5">Desde criança sempre fui uma pessoa curiosa, porém qundo tive meu primeiro computador aos 6 anos     as coisas mudaram. </p>
+            <p className="text-xl  m-5 mt-6">A partir dali me apaixonei por tecnologia completamente culminando em seguir esse caminho em minha carreira profissional, decidindo cursar Engenharia de Software.</p>
+            <p className="text-3xl  m-5 mt-8 ">Atualmente crio desafios para mim mesmo a fim de desenvolver programas, utilizando, <p className="font-bold ">Java com SpringBoot, Python, React com JavaScript, SQL com PostGreSQL, HTML e CSS. </p></p>
+            <p className="text-2xl m-5 mt-6">Já nos tempos da escola eu era um garoto autônomo, determinado em aprender coisas novas, hoje em dia esse pensamento não mudou. A cada dia tenho a meta de expandir meu conhecimento na área de desenvolvimento, conhecendo novas tecnologias, linguagens, framework e metodologias.</p>
+            <p className="text-xl m-5 ">Tenho em mente que para ser um exímio desenvolvedor é necessário colaborar com a equipe, para isso desenvolvo projetos com meus amigos, sempre com dedicação, respeito e ajuda mútua.</p>
+            </div>
         </div>
+            
         </>
      );
 }

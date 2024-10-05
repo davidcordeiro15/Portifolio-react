@@ -10,7 +10,7 @@ function App() {
   
   return (
     <>
-    <div className=' text-indigo-950 m-5 bg-blue-300 font-mono'>
+    <div className=' text-black m-5 bg-blue-300 font-mono'>
       <Header></Header>
       <Outlet/>
       <Footer></Footer>
