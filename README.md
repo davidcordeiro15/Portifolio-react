@@ -17,6 +17,6 @@ Esse portifolio foi criado para armazenar meus projetos, me conectar e me aprese
 
 [Icon - Alarme](https://www.flaticon.com/br/icone-gratis/alarme_2014901?term=alerta&page=1&position=12&origin=search&related_id=2014901)  - Alarme ícones criados por Freepik - Flaticon
 
-[Icon - Page Web](https://www.flaticon.com/br/icone-gratis/pagina-da-internet_5394897?term=site&page=1&position=6&origin=search&related_id=5394897_ - Página da web ícones criados por Ilham Fitrotul Hayat - Flaticon
+[Icon - Page Web](https://www.flaticon.com/br/icone-gratis/pagina-da-internet_5394897?term=site&page=1&position=6&origin=search&related_id=5394897_) - Página da web ícones criados por Ilham Fitrotul Hayat - Flaticon
 
 [Icon - Programador](https://www.flaticon.com/br/icone-gratis/programador_2409387?term=programador&page=1&position=1&origin=search&related_id=2409387) - Programador ícones criados por juicy_fish - Flaticon
