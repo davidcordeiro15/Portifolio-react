@@ -1,10 +1,5 @@
 # Projeto
-Esse portifolio foi criado para armazenar meus projetos, me conectar e me apresentar. A primeira versão desse projeto tem a intenção de cumprir os requisitos disponibilizados pelo professor (https://cherry-client-b8f.notion.site/CP2-Portf-lio-8bc1b15e60de4f4fb756614c1be9ed14). Acredito que com o avanço de meu conhecimento em React o layout se aperfeiçoará. 
-
-# Link para o site hospedado na Vercel
-https://portifolio-react-eight.vercel.app/
-
-![Portifolio](https://github.com/user-attachments/assets/17c52fbd-a890-4615-8980-62ba6576ee58)
+Esse portifolio foi criado para armazenar meus projetos, me conectar e me apresentar. A primeira versão desse projeto tem a intenção de cumprir os requisitos disponibilizados pelo professor (https://cherry-client-b8f.notion.site/CP2-Portf-lio-8bc1b15e60de4f4fb756614c1be9ed14).
 
 # Motivação
  - Se trata do checkpoint/avaliação para a matéria de Web Development, ministrada pelo professor Caio Oliveira.

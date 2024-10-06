@@ -28,6 +28,10 @@ function Contato() {
             }, 1500);
             
             console.log(msg)
+            setEmail("")
+            setNome("")
+            setMensagem("")
+            setTitulo("")
             
         }
     }

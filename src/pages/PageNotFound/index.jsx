@@ -1,6 +1,6 @@
 function PageNotFound() {
     return ( <>
-        <p>Pagina não encontrada</p>
+        <p className="min-h-screen text-center text-6xl">Página não encontrada</p>
     </> );
 }
 

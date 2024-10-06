@@ -13,10 +13,10 @@ function Header() {
         <>
             <div className="flex ml-2 text-lg ">
                 
-                <button onClick={handleMenu} className="m-5 z-0 hover:tracking-widest hover:text-xl hover:font-bold">{menu}</button>
+                <button onClick={handleMenu} className=" m-5 z-0 hover:tracking-widest hover:text-xl hover:font-bold">{menu}</button>
                     
                
-                {isClick && <ul className=" gap-10 m-5 z-10 absolute">
+                {isClick && <ul className=" gap-10 m-5 z-10 absolute md:flex ">
                     <li><button onClick={handleMenu} className="hover:font-bold">Menu</button></li>
                     <li><NavLink to="/"   className={hover} onClick={handleMenu}>Home</NavLink></li>
                     <li><NavLink to="/contato"   className={hover}onClick={handleMenu}>Contato</NavLink></li>

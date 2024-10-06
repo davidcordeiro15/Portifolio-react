@@ -8,7 +8,7 @@ import Sobre_mim from "./pages/Sobre_mim"
 import Projetos from "./pages/Projetos"
 import PageNotFound from "./pages/PageNotFound"
 import Home from "./pages/Home"
-import PageProject from './pages/PageProject/index.jsx'
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,7 +18,6 @@ const router = createBrowserRouter([
       {path:'/contato', element: <Contato/>},
       {path:'/sobre-mim', element: <Sobre_mim/>},
       {path:'/projetos', element: <Projetos/>},
-      {path:'/:id', element: <PageProject/>},
       {path: '*', element:<PageNotFound/>}
     ]
   }
