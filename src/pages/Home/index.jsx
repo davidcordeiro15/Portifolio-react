@@ -33,17 +33,17 @@ function Home() {
 
     return ( 
         <>
-        <div className=" min-h-screen text ">
-            <div className="flex ">
-                <div>
-                <h1 className="text-5xl lg:ml-8 xl:mt-40 xl:mb-10 xl:mr-40 xl:m-10 flex gap-5">Olá, meu nome é <p className="font-bold">David</p>!</h1>
-                <h2 className="text-2xl  mb-40 mr-40 m-10 w-2/6">Sou um curioso que desde criança decidiu explorar o mundo da tecnologia</h2>
+        <div className=" min-h-screen ">
+            <div className="">
+                <div className="lg:flex">
+                <h1 className="mt-2 text-2xl md:text-5xl md:gap-4 lg:gap-5 md:mt-5 justify-center flex gap-2 lg:ml-10 lg:items-center">Olá, meu nome é <p className="font-bold">David</p>!</h1>
+                <img src="/img/programador.png" alt="" className="m-10 md:ml-10 w-4/6 h-4/6 md:w-6/12 md:h-6/12 xl:ml-36 lg:w-3/12 lg:h-3/12"/>
                 </div>
-                <img src="/img/programador.png" alt="" className="w-3/12 h-2/6 lg:mt-10 lg:mr-24 xl:mr-20 xl:mt-16"/>
+                <h2 className="text-xl  md:text-3xl md:w-4/6 ml-10">Sou um curioso que desde criança decidiu explorar o mundo da tecnologia</h2>
                 
             </div>
-            <h2 className="text-6xl ml-10 ">Alguns Projetos: </h2>
-            <div className="m-20  text-center gap-20">
+            <h2 className="text-3xl text-center mt-10 md:text-5xl md:m-20">Alguns Projetos: </h2>
+            <div className="m-5  text-center gap-20">
             {List.map(p => (
             <CardProjets 
                 key={p.id}

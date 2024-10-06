@@ -45,7 +45,7 @@ function Projetos() {
     return ( 
         <>
         <div className="min-h-screen">
-            <h1 className="m-20 text-6xl text-center font-bold">Meus Projetos </h1>
+            <h1 className="m-10 text-4xl text-center font-bold">Meus Projetos </h1>
         <div className=" m-10 gap-10 text-center">
         {List.map(p => (
         <CardProjets 

@@ -37,24 +37,40 @@ function Contato() {
     }
     return ( 
         <>
-        <div className="min-h-screen text-center ">
-            <div className="z-10 fixed text-center ">
-                {textBox &&<h2 className="fixed top-0 left-0 w-full bg-green-500 text-white p-4 text-center">Mensagem Enviada</h2>}
-            </div>
-            <h1 className="text-5xl">Me envie uma mensagem!</h1>
-            <form className="justify-around z-0 text-xl m-10">
-                <h2 >Seu nome: </h2>
-                <input type="text" value={nome} onChange={handleNome}/>
-                <h2>Titulo da mensagem: </h2>
-                <input type="text" value={titulo} onChange={handleTitulo}/>
-                <h2>Email: </h2>
-                <input type="email" value={email} onChange={handleEmail}/>
-                <h2>Mensagem: </h2>
-                <textarea cols="30" rows="10"  type="text" value={mensagem} onChange={handleMensagem}/>
-            </form>
-            <button onClick={criaMsg} className="hover:w-60  bg-blue-500 text-white w-52 px-4 py-2 rounded hover:bg-blue-800">Enviar mensagem</button>
-
+        <div className="min-h-screen flex flex-col justify-center items-center text-center">
+        <div className="z-10 fixed top-0 w-full">
+            {textBox && <h2 className="bg-green-500 text-white p-4">Mensagem Enviada</h2>}
         </div>
+        
+        <h1 className="text-4xl mb-5">Me envie uma mensagem!</h1>
+        
+        <form className="flex flex-col justify-center items-center text-lg m-10 space-y-5">
+            <div>
+            <h2>Seu nome: </h2>
+            <input type="text" value={nome} onChange={handleNome} className="border p-2 rounded"/>
+            </div>
+            
+            <div>
+            <h2>Título da mensagem: </h2>
+            <input type="text" value={titulo} onChange={handleTitulo} className="border p-2 rounded"/>
+            </div>
+            
+            <div>
+            <h2>Email: </h2>
+            <input type="email" value={email} onChange={handleEmail} className="border p-2 rounded"/>
+            </div>
+            
+            <div>
+            <h2>Mensagem: </h2>
+            <textarea cols="25" rows="5" value={mensagem} onChange={handleMensagem} className="border p-2 rounded"/>
+            </div>
+        </form>
+        
+        <button onClick={criaMsg} className="bg-blue-500 text-white w-52 px-4 py-2 rounded hover:bg-blue-800">
+            Enviar mensagem
+        </button>
+        </div>
+
         </>
      );
 }
