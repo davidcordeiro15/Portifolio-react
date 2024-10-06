@@ -4,6 +4,8 @@ Esse portifolio foi criado para armazenar meus projetos, me conectar e me aprese
 # Link do Projeto
 [Portifólio](https://portifolio-react-eight.vercel.app/)
 
+![Portifolio](https://github.com/user-attachments/assets/17c52fbd-a890-4615-8980-62ba6576ee58)
+
 # Motivação
  - Se trata do checkpoint/avaliação para a matéria de Web Development, ministrada pelo professor Caio Oliveira.
 
