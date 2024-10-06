@@ -6,7 +6,7 @@ function Sobre_mim() {
         <>
         <h1 className="text-6xl text-center">Sobre mim</h1>
         <div className="flex justify-between m-2 mt-10 min-h-screen gap-10">
-            <img className=" ml-5 mt-10 w-1/6 h-1/6 border-1 border-blue-600 border rounded-full" src="../public/img/Foto_nova.jpg" alt="" />
+            <img className=" ml-5 mt-10 w-1/6 h-1/6 border-1 border-blue-600 border rounded-full" src="../../public/img/Foto_nova.jpg" alt="" />
             <div className=" m-5 text-3xl">
             <p className="m-5">Desde criança sempre fui uma pessoa curiosa, porém qundo tive meu primeiro computador aos 6 anos     as coisas mudaram. </p>
             <p className="m-5 mt-6">A partir dali me apaixonei por tecnologia completamente culminando em seguir esse caminho em minha carreira profissional, decidindo cursar Engenharia de Software.</p>
